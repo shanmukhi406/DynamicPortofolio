@@ -1,0 +1,16 @@
+/* Optional CSS for the cursor */
+.typed-cursor {
+    font-size: 1.5em;
+    animation: blink 0.7s step-end infinite;
+    color: #6b46c1; /* Same color as text */
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  

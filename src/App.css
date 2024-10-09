@@ -1,0 +1,17 @@
+.moving-text {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  animation: move 10s linear infinite; /* Animation properties */
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  50% {
+    transform: translateX(0); /* Move to its original position */
+  }
+  100% {
+    transform: translateX(-100%); /* End off-screen to the left */
+  }
+}
