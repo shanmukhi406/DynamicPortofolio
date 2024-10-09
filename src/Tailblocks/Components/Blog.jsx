@@ -13,7 +13,7 @@ const Blog = () => {
               Created an engaging and responsive portfolio essential for developers looking to showcase their work. I wanted mine to go beyond a static display of projects and serve as an interactive hub for showcasing my skills and sharing insights through blogs. This led to the creation of a dynamic portfolio that not only renders my projects but also features blog posts that can be easily updated and shared with the development community!
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
-              <a  className="text-indigo-500 inline-flex items-center">Learn More
+              <a  className="text-indigo-500 inline-flex items-center" href='https://dynamic-portofolio-6x5d-git-main-shanmukhi406s-projects.vercel.app/'>Learn More
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
