@@ -4,6 +4,7 @@ import LandingPage from './Tailblocks/Pages/LandingPage';
 import About from './Tailblocks/Components/About';
 import Blog from './Tailblocks/Components/Blog';
 import Contact from './Tailblocks/Components/Contact';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 const App = () => {
