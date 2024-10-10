@@ -45,7 +45,7 @@ const HeroSection = () => {
         </div>
         <div className="">
           <img
-            src="https://tse2.mm.bing.net/th?id=OIP.FaP83GCa5bTCofsqCD0OcgHaHl&pid=Api&P=0&h=180"
+            src="shanmukhiimg.jpg"
             width="300px"
             alt="woman"
           />
