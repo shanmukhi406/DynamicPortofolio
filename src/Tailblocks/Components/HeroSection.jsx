@@ -42,7 +42,19 @@ const HeroSection = () => {
               Project 2
             </a>
           </div>
+
+          {/* Button for downloading resume */}
+          <div className="mt-4">
+            <a
+              href="./shannuresume.pdf" // Adjust the path based on where your resume is stored
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              download
+            >
+              Download My Resume
+            </a>
+          </div>
         </div>
+
         <div className="">
           <img
             src="shanmukhiimg.jpg"
